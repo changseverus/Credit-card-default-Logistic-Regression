@@ -10,6 +10,11 @@ dat$b<-factor(dat$b)
 dat$c<-factor(dat$c)
 dat$d<-factor(dat$d)
 
+# run basic EDA
+str(dat)
+head(dat)
+summary(dat)
+
 # plot histogram to see the distribution of applicants' income, job type, credit card type
 hist(dat$g)
 hist(dat$i)
